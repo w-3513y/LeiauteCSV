@@ -1,0 +1,200 @@
+﻿SAFX01;(*);1;Código da Empresa;COD_EMPRESA;3;A
+SAFX01;(*);2;Código do Estabelecimento;COD_ESTAB;6;A
+SAFX01;(*);3;Data da Operação;DATA_OPERACAO;8;N
+SAFX01;(*);4;Conta Débito/Crédito do Lançamento;CONTA_DEB_CRED;70;A
+SAFX01;(*);5;Débito/Crédito do Lançamento Contábil;IND_DEB_CRE;1;A
+SAFX01;(*);6;Arquivamento;ARQUIVAMENTO;50;A
+SAFX01;(*);7;Valor do Lançamento Contábil;VLR_LANCTO;017V002;N
+SAFX01;;8;Conta Contra Partida;CONTRA_PART;70;A
+SAFX01;;9;Centro de Custo;CENTRO_CUSTO;50;A
+SAFX01;;10;Centro de Despesa;CENTRO_DESPESA;20;A
+SAFX01;;11;Histórico Padrão;HISTPADRAO;6;A
+SAFX01;;12;Código da Operação;COD_OPERACAO;6;A
+SAFX01;;13;Histórico Complementar;HISTCOMPL;255;A
+SAFX01;;14;Código do Índice de Conversão;COD_INDICE_CONV;10;A
+SAFX01;;15;Valor do Lançamento Convertido;VLR_OPER_IND;016V004;N
+SAFX01;;16;Número do Lançamento;NUM_LANCAMENTO;40;A
+SAFX01;;17;Tipo de Lançamento;TIPO_LANCTO;1;A
+SAFX01;;18;Operação com Participante Vinculado - Indicador da Pessoa Física/Jurídica;IND_PFJ_EMPRESA;1;A
+SAFX01;;19;Operação com Participante Vinculado - Código da Pessoa Física/Jurídica;COD_PFJ_EMPRESA;14;A
+SAFX01;;20;Código do Serviço;COD_SERVICO;4;A
+SAFX01;;21;Identificador do Lançamento Resumido ;IDENTIF_LANC_RES;128;A
+SAFX01;;22;Código do Sistema de Origem ;COD_SISTEMA_ORIG;4;A
+SAFX01;;23;Identificador do Saldo Mensal ;IDENTIF_SALDO;128;A
+SAFX01;;24;Reservado 1;DSC_RESERVADO1;017V002;N
+SAFX01;;25;Reservado 2;DSC_RESERVADO2;017V002;N
+SAFX01;;26;Reservado 3;DSC_RESERVADO3;017V002;N
+SAFX01;;27;Reservado 4;DSC_RESERVADO4;50;A
+SAFX01;;28;Reservado 5;DSC_RESERVADO5;50;A
+SAFX01;;29;Reservado 6;DSC_RESERVADO6;50;A
+SAFX01;;30;Reservado 7;DSC_RESERVADO7;50;A
+SAFX01;;31;Reservado 8;DSC_RESERVADO8;50;A
+SAFX01;;32;Data de Lançamento Extemporâneo;DAT_LANCTO_EXTEMP;8;N
+SAFX01;;33;Código do Evento - DES-IF;COD_EVENTO_DESIF;3;A
+SAFX01;;34;UF do Vínculo/Origem;COD_ESTADO_ORIG;2;A
+SAFX01;;35;Município do Vínculo/Origem;COD_MUNIC_ORIG;5;N
+SAFX02;(*);1;Código da Empresa;COD_EMPRESA;3;A
+SAFX02;(*);2;Código do Estabelecimento;COD_ESTAB;6;A
+SAFX02;(*);3;Conta Contábil;COD_CONTA;70;A
+SAFX02;(*);4;Data da Operação;DATA_SALDO;8;N
+SAFX02;;5;Saldo Inicial;VLR_SALDO_INI;017V002;N
+SAFX02;(*);6;Débito/Crédito;IND_SALDO_INI;1;A
+SAFX02;;7;Saldo Final;VLR_SALDO_FIM;017V002;N
+SAFX02;(*);8;Débito/Crédito;IND_SALDO_FIM;1;A
+SAFX02;;9;Total Crédito;VLR_TOT_CRE;017V002;N
+SAFX02;;10;Total Débito;VLR_TOT_DEB;017V002;N
+SAFX02;;11;Identificador do Saldo Mensal ;IDENTIF_SALDO;128;A
+SAFX02;;12;Código do Sistema de Origem ;COD_SISTEMA_ORIG;4;A
+SAFX03;(*);1;Código da Empresa;COD_EMPRESA;3;A
+SAFX03;(*);2;Código do Estabelecimento;COD_ESTAB;6;A
+SAFX03;(*);3;Data do Movimento;DATA_MOVTO;8;N
+SAFX03;(*);4;Indicador de Pessoa Física/Jurídica;IND_FIS_JUR;1;A
+SAFX03;(*);5;Código da Pessoa Física/Jurídica;COD_FIS_JUR;14;A
+SAFX03;(*);6;Tipo do Documento;COD_DOCTO;5;A
+SAFX03;(*);7;Número do Documento;NUM_DOCFIS;12;A
+SAFX03;;8;Série do Documento;SERIE_DOCFIS;3;A
+SAFX03;;9;Subsérie do Documento;SUB_SERIE_DOCFIS;2;A
+SAFX03;(*);10;Código de Operação;COD_OPERACAO;6;A
+SAFX03;(*);11;Data da Emissão;DATA_EMISSAO;8;N
+SAFX03;;12;Data do Vencimento;DATA_VENCTO;8;N
+SAFX03;(*);13;Arquivamento;ARQUIVAMENTO;50;A
+SAFX03;(*);14;Valor da Operação;VLR_MOVTO;015V002;N
+SAFX03;(*);15;Débito/Crédito;IND_DEB_CRE;1;A
+SAFX03;;16;Conta Contábil;COD_CONTA;70;A
+SAFX03;;17;Centro de Custo;CENTRO_CUSTO;50;A
+SAFX03;;18;Código do Índice;COD_INDICE;10;A
+SAFX03;;19;Valor da Operação no Índice;VLR_MOVTO_CONV;014V004;N
+SAFX03;;20;Valor Original do Documento;VLR_TOT_DOCTO;015V002;N
+SAFX03;;21;Número do documento Compensação;NUM_DOC_COMPENS;15;A
+SAFX03;;22;Centro de Responsabilidade;COD_CENTRO_RESP;20;A
+SAFX03;;23;Código do Tributo;COD_TRIBUTO;2;A
+SAFX03;;24;Especificação do Tributo;ESP_TRIBUTO;2;A
+SAFX03;;25;Código de Receita;COD_RECEITA;6;A
+SAFX03;;26;Código do DARF;COD_DARF;4;A
+SAFX03;;27;Data do Fator Gerador;DATA_FATOR_GERADOR;8;N
+SAFX03;;28;Data Inicial de Competência;DATA_INI_COMPET;8;N
+SAFX03;;29;Data Final de Competência;DATA_FIM_COMPET;8;N
+SAFX03;;30;Valor Bruto;VLR_BRUTO;015V002;N
+SAFX03;;31;Valor da Dedução;VLR_DEDUCAO;015V002;N
+SAFX03;;32;Alíquota do tributo;ALIQ_TRIBUTO;003V004;N
+SAFX03;;33;Histórico;HISTORICO;50;A
+SAFX03;;34;Tipo de Título de Crédito;IND_TIPO_TITULO;2;A
+SAFX03;;35;Descrição Complementar do Título;DSC_COMPL_TITULO;50;A
+SAFX03;;36;Quantidade de Parcelas;QTDE_PARCELA;3;N
+SAFX03;;37;Número do Lançamento Contábil;NUM_LANCAMENTO;40;A
+SAFX03;;38;Código do Setor;COD_SETOR;10;A
+SAFX03;;39;Indicador do Tipo de Processo ;IND_TP_PROC_ADJ;1;A
+SAFX03;;40;Número do Processo Principal;NUM_PROC_ADJ;21;A
+SAFX03;;41;Código do Indicativo da Suspensão de Exigibilidade de Tributos do Processo ;COD_SUSP;14;A
+SAFX03;;42;Valor da Retenção;VLR_RET;015V002;N
+SAFX03;;43;Valor da Retenção não Efetuada;VLR_N_RET;015V002;N
+SAFX04;(*);1;Indicador de Pessoa Física/Jurídica;IND_FIS_JUR;1;A
+SAFX04;(*);2;Código Pessoa Física/Jurídica;COD_FIS_JUR;14;A
+SAFX04;;3;Data Início/Inclusão/Alteração;DATA_X04;8;N
+SAFX04;(*);4;Indicador do Conteúdo do Código;IND_CONTEM_COD;1;A
+SAFX04;(*);5;Razão Social;RAZAO_SOCIAL;70;A
+SAFX04;(*);6;CPF-CGC;CPF_CGC;14;A
+SAFX04;;7;Código Atividade Econômica;COD_ATIVIDADE;7;N
+SAFX04;;8;Inscrição Estadual;INSC_ESTADUAL;14;A
+SAFX04;;9;Inscrição Municipal;INSC_MUNICIPAL;14;A
+SAFX04;;10;Inscrição SUFRAMA;INSC_SUFRAMA;14;A
+SAFX04;;11;Nome Fantasia;NOME_FANTASIA;50;A
+SAFX04;;12;Endereço;ENDERECO;50;A
+SAFX04;;13;Número do Endereço;NUM_ENDERECO;10;A
+SAFX04;;14;Complemento do Endereço;COMPL_ENDERECO;45;A
+SAFX04;;15;Bairro;BAIRRO;20;A
+SAFX04;;16;Município;CIDADE;30;A
+SAFX04;;17;Distrito;DISTRITO;20;A
+SAFX04;;18;Subdistrito;SUB_DISTRITO;20;A
+SAFX04;;19;UF;UF;2;A
+SAFX04;;20;CEP;CEP;8;N
+SAFX04;;21;País;COD_PAIS;3;A
+SAFX04;;22;DDD;DDD;5;A
+SAFX04;;23;Telefone;TELEFONE;10;A
+SAFX04;;24;Fax;FAX;10;A
+SAFX04;;25;Código do Município;COD_MUNICIPIO;5;N
+SAFX04;;26;Classe de Pessoa Física Jurídica;IND_CLASSE_PFJ;2;A
+SAFX04;;27;Classe de Empresa;IND_CLASSE_EMP;2;A
+SAFX04;;28;Pessoa Física Contribuinte;IND_PFJ_CONTRIB;1;A
+SAFX04;;29;Código Contábil;CODIGO_CONTABIL;20;A
+SAFX04;;30;CEI;CEI;15;A
+SAFX04;;31;Indicador de Cliente SID;IND_CLIENTE_SID;1;A
+SAFX04;;32;CPF/CNPJ (Convênio ICMS 115);CPF_CNPJ_INV;14;A
+SAFX04;;33;Sociedade em conta de participação;IND_SCP;1;A
+SAFX04;;34;CBO;COD_CBO;10;A
+SAFX04;;35;Número do PIS/PASEP;PIS_PASEP;11;A
+SAFX04;;36;Categoria do Trabalhador;CATEGORIA_TRAB;2;A
+SAFX04;;37;Ocorrência do Trabalhador;OCORRENCIA_TRAB;2;A
+SAFX04;;38;Caixa Postal;CX_POSTAL;20;N
+SAFX04;;39;Número do CEP - Caixa Postal;NUM_CEP_CX_POSTAL;8;N
+SAFX04;;40;Endereço Eletrônico;E_MAIL;60;A
+SAFX04;;41;Participante do Programa Fome Zero;IND_FOME_ZERO;1;A
+SAFX04;;42;Logradouro;TP_LOGRADOURO;10;A
+SAFX04;;43;Enquadrado como Simples Nacional;IND_SIMPLES_NAC;1;A
+SAFX04;;44;Tipo de Bairro;TP_BAIRRO;10;A
+SAFX04;;45;Data de nascimento;DATA_NASC_AUTONOMO;8;A
+SAFX04;;46;Quantidade de Dependentes Imposto de Renda;IMP_RENDA_DEPEND;2;A
+SAFX04;;47;Quantidade de Dependentes Salário Família;SAL_FAMILIA_DEPEND;2;A
+SAFX04;;48;Função;COD_FUNCAO_AUTONOMO;10;A
+SAFX04;;49;Incentivo Cultural;IND_INCENTIVO_CULTURAL;1;A
+SAFX04;;50;Cliente Livre;IND_CLIENTE_LIVRE;1;A
+SAFX04;;51;Passaporte;PASSAPORTE;20;A
+SAFX04;;52;Data da Atribuição da Moléstia Grave;DATA_MOLESTIA;8;N
+SAFX04;;53;Número de Identificação Fiscal;NUM_ID_FISCAL;30;A
+SAFX04;;54;Relação Fonte Pagadora/Beneficiário;TP_FONTE_PAGADORA;3;A
+SAFX04;;55;Província Estrangeira;DSC_PROVINCIA_EX;40;A
+SAFX04;;56;Alvará;NUM_ALVARA;11;A
+SAFX04;;57;Código da Instalação 2;COD_INSTAL_ANP;7;A
+SAFX04;;58;Número de Certificado do Registro;NUM_CR;10;A
+SAFX04;;59;Indicador do Nº de Identificação Fiscal;IND_IDENTIF_FISCAL;1;A
+SAFX04;;60;CAEPF;NUM_CAEPF;15;A
+SAFX04;;61;Data Início da Prestação de Serviços;DATA_PREST_SERV;8;N
+SAFX04;;62;Indicação de Inclusão no Processo Conciliação de NFS de Corretores no Gerenciador de ISS;IND_CONCILIACAO;1;A
+SAFX04;;63;Bairro (II);BAIRRO_II;60;A
+SAFX04;;64;Nome do Contato ;NOM_CONTATO ;100;A
+SAFX04;;65;Endereço na Web;ENDERECO_WEB ;200;A
+SAFX04;;66;Código da Categoria do Trabalhador;COD_CATEG_TRAB;3;A
+SAFX04;;67;Natureza da Atividade;IND_NAT_ATIVIDADE;1;A
+SAFX04;;68;Setor;COD_SETOR;10;A
+SAFX04;;69;CPF do Proprietário da Fazenda SP (São Paulo);CPF_SP;14;A
+SAFX04;;70;Reservado 1;DSC_RESERVADO1;50;A
+SAFX04;;71;Reservado 2;DSC_RESERVADO2;50;A
+SAFX04;;72;Reservado 3;DSC_RESERVADO3;50;A
+SAFX04;;73;Reservado 4;DSC_RESERVADO4;50;A
+SAFX04;;74;Reservado 5;DSC_RESERVADO5;50;A
+SAFX04;;75;Reservado 6;VLR_RESERVADO6;015V002;N
+SAFX04;;76;Reservado 7;VLR_RESERVADO7;015V002;N
+SAFX04;;77;Reservado 8;VLR_RESERVADO8;015V002;N
+SAFX04;;78;Informações sobre Isenção e Imunidade;IND_ISENTO_IMUNE;1;A
+SAFX04;;79;Contribuinte ICMS;IND_CONTRIB_ICMS;1;A
+SAFX04;;80;Produtor Rural;IND_PRODUTOR_RURAL;1;A
+SAFX05;(*);1;Código da Empresa;COD_EMPRESA;3;A
+SAFX05;(*);2;Código do Estabelecimento;COD_ESTAB;6;A
+SAFX05;(*);3;Data do Movimento;DATA_MOVTO;8;N
+SAFX05;(*);4;Indicador de Pessoa Física/Jurídica;IND_FIS_JUR;1;A
+SAFX05;(*);5;Código da Pessoa Física/Jurídica;COD_FIS_JUR;14;A
+SAFX05;(*);6;Tipo do Documento;COD_DOCTO;5;A
+SAFX05;(*);7;Número do Documento;NUM_DOCFIS;12;A
+SAFX05;;8;Série do Documento;SERIE_DOCFIS;3;A
+SAFX05;;9;Subsérie do Documento;SUB_SERIE_DOCFIS;2;A
+SAFX05;(*);10;Código de Operação;COD_OPERACAO;6;A
+SAFX05;(*);11;Data da Emissão;DATA_EMISSAO;8;N
+SAFX05;;12;Data do Vencimento;DATA_VENCTO;8;N
+SAFX05;(*);13;Arquivamento;ARQUIVAMENTO;50;A
+SAFX05;(*);14;Valor da Operação;VLR_MOVTO;015V002;N
+SAFX05;(*);15;Débito/Crédito;IND_DEB_CRE;1;A
+SAFX05;;16;Conta Contábil;COD_CONTA;70;A
+SAFX05;;17;Centro de Custo;CENTRO_CUSTO;50;A
+SAFX05;;18;Código do Índice;COD_INDICE;10;A
+SAFX05;;19;Valor da Operação no Índice;VLR_MOVTO_CONV;014V004;N
+SAFX05;;20;Valor Original do Documento;VLR_TOT_DOCTO;015V002;N
+SAFX05;;21;Número do Documento Compensação;NUM_DOCTO_COMPENS;15;A
+SAFX05;;22;Histórico;HISTORICO;50;A
+SAFX05;;23;Observação;OBSERVACAO;20;A
+SAFX05;;24;Tipo de Título de Crédito;IND_TIPO_TITULO;2;A
+SAFX05;;25;Descrição Complementar do Título;DSC_COMPL_TITULO;50;A
+SAFX05;;26;Quantidade de Parcelas;QTDE_PARCELA;3;N
+SAFX05;;27;Número do Lançamento Contábil;NUM_LANCAMENTO;40;A
+SAFX05;;28;Código da SCP;COD_SCP;14;A
+SAFX05;;29;Indicador do Beneficiário (DMED);IND_FIS_JUR_DMED  ;1;A
+SAFX05;;30;Código do Beneficiário (DMED);COD_FIS_JUR_DMED  ;14;A
